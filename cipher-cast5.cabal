@@ -16,8 +16,7 @@ cabal-version:       >=1.8
 
 library
   exposed-modules:     Crypto.Cipher.Feistel, Crypto.Cipher.Cast5,
-                       Crypto.Cipher.Blowfish, Crypto.Cipher.SBox,
-                       Crypto.Cipher.AES.Haskell
+                       Crypto.Cipher.SBox, Crypto.Cipher.AES.Haskell
   -- other-modules:       
   build-depends:       base ==4.5.*, bytestring ==0.9.*, binary ==0.7.*, cpu ==0.1.*,
                        vector ==0.9.*, crypto-api ==0.12.*, cereal ==0.3.*,
