@@ -18,7 +18,7 @@ library
   exposed-modules:     Crypto.Cipher.Feistel, Crypto.Cipher.Cast5,
                        Crypto.Cipher.SBox
   -- other-modules:       
-  build-depends:       base ==4.5.*, bytestring ==0.9.*, binary ==0.7.*, cpu ==0.1.*,
-                       vector ==0.9.*, crypto-api ==0.12.*, cereal ==0.3.*,
-                       tagged ==0.6.*, template-haskell ==2.7.*,
-                       ghc-prim ==0.2.*, primitive ==0.4.*
+  build-depends:       base >= 4.5, bytestring >=0.9, binary >=0.5.1.1, cpu ==0.1.*,
+                       vector >=0.9, crypto-api ==0.12.*, cereal ==0.3.*,
+                       tagged ==0.6.*, template-haskell >=2.7,
+                       ghc-prim >= 0.2, primitive >= 0.4
